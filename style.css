@@ -1,0 +1,41 @@
+/* style.css */
+.loading-spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 15px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Selection style */
+#peeping-tom-selection {
+  position: fixed;
+  pointer-events: none;
+  z-index: 10000;
+  border: 2px dashed #3498db;
+  background-color: rgba(52, 152, 219, 0.1);
+}
+
+/* Study message style */
+#study-message {
+  font-size: 14px;
+  text-align: center;
+  color: #333;
+}
+
+/* Making sure overlay is clickable through */
+#peeping-tom-overlay {
+  pointer-events: none;
+}
+
+/* But elements inside the overlay should receive clicks */
+#peeping-tom-overlay > * {
+  pointer-events: auto;
+}
