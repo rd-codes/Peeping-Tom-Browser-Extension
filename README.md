@@ -1,5 +1,9 @@
 # Peeping Tom Extension
 
+
+https://github.com/user-attachments/assets/9a4e66c6-4560-4fd9-84e2-d65463f62ffc
+
+
 A browser extension that helps users understand quiz questions by providing answers and explanations using Google's Gemini AI.
 
 ## Features
@@ -156,4 +160,5 @@ The extension uses Google's Gemini AI API for question analysis:
 
 ## Support
 
-For issues and feature requests, please open an issue in the repository. 
+For issues and feature requests, please open an issue in the repository.
+![Peeping Tom icon](https://github.com/user-attachments/assets/fbfbc007-cfe6-4b11-8562-9bce56dcf079)
