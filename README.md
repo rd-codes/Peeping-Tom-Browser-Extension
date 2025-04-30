@@ -51,9 +51,8 @@ peeping_tom_extension/
 ├── popup.js              # Popup script logic
 ├── styles.css            # Styling for the extension
 └── icons/                # Extension icons
-    ├── icon-16.png
-    ├── icon-32.png
-    └── icon-48.png
+    ├── icon.png
+  
 ```
 
 ### Key Components
